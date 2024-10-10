@@ -1,18 +1,14 @@
-#include <iostream>
+#include "LinkedList.h"
 
-class Node{
-  public:
-    int valor;
-    Node *prox;
+int main() {
+  LinkedList *myList = new LinkedList();
 
-    Node(int valor) {
-      this.valor = valor;
-      this->prox = null;
-    }
-};
+  myList->add(1);
+  myList->add(2);
+  myList->add(3);
+  myList->add(4);
+  myList->add(5);
+  myList->add(6);
 
-class LinkedList{
-  
+  myList->print();
 }
-  public:
-    Node *head;

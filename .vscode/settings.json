@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    ".env.*": "properties",
+    ".prettierrc": "json",
+    "globals.css": "tailwindcss",
+    "*.css": "css",
+    "new": "cpp"
+  }
+}
