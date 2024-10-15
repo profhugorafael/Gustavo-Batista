@@ -1,14 +1,14 @@
-#ifndef NODE_H
-#define NODE_H
+#ifndef NO_H
+#define NO_H
 
 #include <iostream>
 
-class Node {
+class No {
  public:
   int valor;
-  Node *prox;
+  No *prox;
 
-  Node(int valor) {
+  No(int valor) {
     this->valor = valor;
     this->prox = NULL;
   }
